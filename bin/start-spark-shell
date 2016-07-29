@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run -t -i -p 4040:4040 spark-dev-base /opt/spark/bin/spark-shell --master spark://172.17.0.2:7077

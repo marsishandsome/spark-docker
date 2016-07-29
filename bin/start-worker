@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run -t spark-dev-worker spark://172.17.0.2:7077

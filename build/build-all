@@ -1,0 +1,9 @@
+#!/bin/bash
+
+FWDIR="$(cd "`dirname "$0"`"/..; pwd)"
+cd $FWDIR
+
+./build/build-base
+./build/build-master
+./build/build-worker
+

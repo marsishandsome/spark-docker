@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker run -t -p 8080:8080 -p 7077:7077 --name spark-dev-master spark-dev-master
+#docker run -t -i -p 8080:8080 --name spark-dev-master spark-dev-master /bin/bash
